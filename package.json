@@ -1,0 +1,22 @@
+{
+  "name": "easydlclassic",
+  "version": "1.0.0",
+  "description": "百度EasyDL经典版数据集管理API NodeSDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dboy1981/easydlclassic.git"
+  },
+  "author": "dboy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dboy1981/easydlclassic/issues"
+  },
+  "homepage": "https://github.com/dboy1981/easydlclassic#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
