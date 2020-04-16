@@ -98,6 +98,23 @@ function EasyDLApi(key, secrect){
       return ret;
     },
   
+    imageclass_query: async (url, options) => {
+      var def = {
+        image: '',
+        top_num:5
+      }
+      var opts = Object.assign({}, def, options);
+      if(!opts.image || !url){
+        throw new Error('options error.');
+      }
+      var ret = null;
+      try{
+        ret = await req.post(url, opts);
+      }catch(err){
+        return err;
+      }
+      return ret;
+    }
   }
 }
 
