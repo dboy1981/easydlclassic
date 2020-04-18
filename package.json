@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dboy1981/easydlclassic#readme",
   "dependencies": {
+    "mkdirp": "^1.0.4",
     "request": "^2.88.2"
   }
 }
